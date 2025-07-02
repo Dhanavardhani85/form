@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+.cloud-bg {
+  background: linear-gradient(to top, #87cefa, #ffffff);
+  background-image: url('https://i.imgur.com/7xkM8kU.png'); /* Optional: a soft cloud background */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 300px;
+  text-align: center;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  outline: none;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #00aaff;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+  background-color: #007acc;
+}
